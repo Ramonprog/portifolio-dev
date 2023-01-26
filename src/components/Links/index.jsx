@@ -1,9 +1,7 @@
 import { Container } from "./styles";
 import LooperGrounp from "../../assets/looperGroup.svg";
 
-import { FiLinkedin } from "react-icons/fi";
-import { FiGithub } from "react-icons/fi";
-
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 const index = () => {
   return (
     <Container>
