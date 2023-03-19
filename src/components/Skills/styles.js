@@ -45,4 +45,14 @@ export const Container = styled.div`
       color: ${(props) => props.theme.colors.textColorSecondary};
     }
   }
+
+  @media (max-width: 400px) {
+    & .container-skills {
+      & .mySwiper {
+        & svg {
+          padding: 0 5px;
+        }
+      }
+    }
+  }
 `;

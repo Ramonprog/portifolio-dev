@@ -17,6 +17,7 @@ export const ContainerFooter = styled.footer`
       font-size: 1.6rem;
       line-height: 1.9rem;
       color: ${(props) => props.theme.colors.textColorSecondary};
+      padding: 0 20px;
 
       & span {
         color: var(--primary-color);

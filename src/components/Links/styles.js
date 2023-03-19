@@ -79,4 +79,20 @@ export const Container = styled.div`
       display: none;
     }
   }
+
+  @media (max-width: 430px) {
+    & .left {
+      & h1 {
+        font-size: 4.3rem;
+      }
+
+      & span {
+        font-size: 1.9rem;
+      }
+
+      & .container-links a {
+        margin-right: 5px;
+      }
+    }
+  }
 `;

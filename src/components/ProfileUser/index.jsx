@@ -17,10 +17,13 @@ const ProfileUser = () => {
           <h3>Petrolina, PE, Brasil</h3>
 
           <p>
-            Desenvolvedor Web Front-End em transição de carreira, após 8 anos
-            trabalhando como autônomo e pizzaiolo, onde eu tive a oportunidade
-            de liderar pessoas, adquirir uma comunicação mais assertiva,
-            gerenciar conflitos e trabalho em equipe.
+            Após mais de 8 anos sendo pizzaiolo pude desenvolver habilidades
+            como liderança, atenção a diversos processos simultâneos,
+            relacionamento com clientes e principalmente a comunicação, fui
+            apresentado ao mundo da programação, que até então eu julgava ser
+            algo muito distante, até escrever o meu primeiro "Hello World!".
+            Então decidi aceitar o desafio de me tornar desenvolvedor full stack
+            com foco no Front-End.
           </p>
 
           <div className="container-links">
@@ -35,7 +38,7 @@ const ProfileUser = () => {
             </a>
 
             <a
-              href="https://wa.me/5587988296171"
+              href="https://wa.me/5587996342606"
               target="_blank"
               className="btn btn-gradient-secondary"
             >

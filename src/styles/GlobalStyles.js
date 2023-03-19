@@ -59,4 +59,9 @@ export default createGlobalStyle`
     border-radius: 4px 0px 0px 4px;
   }
   
+  @media (max-width: 430px) {
+    .btn {
+      padding: 5px 18px;
+    }
+  }
 `;

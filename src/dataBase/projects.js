@@ -1,5 +1,6 @@
 import ToDo from "../assets/to-do.png";
 import PrimeFlix from "../assets/prime-flix.png";
+import Portifolio from "../assets/portifolio.png";
 
 export const projects = [
   {
@@ -18,5 +19,13 @@ export const projects = [
     techs: "React, React-Router-Dom, React-toastify, Axios, Vite",
     linkNetlify: "https://prime-dev-flix.netlify.app/",
     linkGitHub: "https://github.com/Ramonprog/primeflix",
+  },
+  {
+    id: 3,
+    banner: Portifolio,
+    name: "Porfólio",
+    techs: "React, styled-components, react-icons, swiper, Vite",
+    linkNetlify: "https://ramon-dev.netlify.app/",
+    linkGitHub: "https://github.com/Ramonprog/portifolio-dev",
   },
 ];

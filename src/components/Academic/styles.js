@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100vw;
-  height: 400px;
+  min-height: 400px;
   background-color: ${(props) => props.theme.colors.secondary};
 
   & .container-academic {
@@ -55,6 +55,31 @@ export const Container = styled.div`
         border-left: 3px solid var(--primary-color);
         border-radius: 4px 0px 0px 4px;
         background-color: ${(props) => props.theme.colors.primary};
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    & .info {
+      flex-direction: column;
+
+      & .details {
+        & p {
+          margin-right: 0 !important;
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 430px) {
+    & .info {
+      & .details {
+        max-width: 100vw;
+        & p {
+          margin: 0;
+        }
       }
     }
   }

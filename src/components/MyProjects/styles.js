@@ -62,4 +62,25 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 850px) {
+    & .container-projects {
+      & .projects {
+        justify-content: center;
+        padding: 0 15px;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    & .container-projects {
+      & .projects {
+        & .project {
+          & .links a {
+            margin: 5px;
+          }
+        }
+      }
+    }
+  }
 `;

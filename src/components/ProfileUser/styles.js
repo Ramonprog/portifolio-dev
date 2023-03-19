@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100vw;
-  height: 500px;
+  min-height: 500px;
   background-color: ${(props) => props.theme.colors.primary};
 
   & .container-profile {
@@ -30,7 +30,7 @@ export const Container = styled.div`
     }
   }
 
-  .about {
+  & .about {
     width: 500px;
     height: 400px;
 
@@ -66,6 +66,43 @@ export const Container = styled.div`
       margin-top: 40px;
       & a {
         margin-right: 48px;
+      }
+    }
+  }
+
+  @media (max-width: 850px) {
+    & .container-profile {
+      justify-content: center;
+      gap: 20px;
+    }
+
+    & .image {
+      margin-top: 20px;
+    }
+
+    & .about {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    & .about {
+      & h2 {
+        margin-top: 0;
+      }
+
+      & .container-links {
+        & a {
+          margin: 5px;
+        }
+      }
+    }
+
+    & .image {
+      & img {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
       }
     }
   }
