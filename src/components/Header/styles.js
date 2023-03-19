@@ -34,9 +34,27 @@ export const Container = styled.header`
     align-items: center;
     justify-content: space-between;
 
+    & .menu svg {
+      font-size: 30px;
+      display: none;
+    }
+
     & svg {
       margin: 0 8px;
       font-size: 2rem;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 700px) {
+    & nav ul {
+      display: none;
+    }
+
+    & .toggle {
+      & .menu svg {
+        display: block;
+      }
     }
   }
 `;

@@ -16,6 +16,7 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { FaReact, FaNode, FaNpm, FaGithubAlt } from "react-icons/fa";
+import { SiJest, SiTestinglibrary } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -34,10 +35,7 @@ const Skills = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <AiFillHtml5 />
-          </SwiperSlide>
-          <SwiperSlide>
-            <IoLogoCss3 />
+            <FaReact />
           </SwiperSlide>
           <SwiperSlide>
             <IoLogoJavascript />
@@ -46,16 +44,25 @@ const Skills = () => {
             <SiTypescript />
           </SwiperSlide>
           <SwiperSlide>
-            <FaReact />
+            <SiStyledcomponents />
           </SwiperSlide>
           <SwiperSlide>
-            <SiStyledcomponents />
+            <SiJest />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiTestinglibrary />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiMaterialui />
           </SwiperSlide>
           <SwiperSlide>
             <IoLogoSass />
           </SwiperSlide>
           <SwiperSlide>
-            <SiMaterialui />
+            <AiFillHtml5 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <IoLogoCss3 />
           </SwiperSlide>
           <SwiperSlide>
             <FaNode />
