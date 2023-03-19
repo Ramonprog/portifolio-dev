@@ -74,6 +74,7 @@ export const Container = styled.div`
     & .container-profile {
       justify-content: center;
       gap: 20px;
+      padding-bottom: 50px;
     }
 
     & .image {
@@ -86,6 +87,9 @@ export const Container = styled.div`
   }
 
   @media (max-width: 400px) {
+    & .container-profile {
+      padding-bottom: 110px;
+    }
     & .about {
       & h2 {
         margin-top: 0;

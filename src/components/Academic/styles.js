@@ -59,14 +59,17 @@ export const Container = styled.div`
     }
   }
 
+  @media (max-width: 800px) {
+    margin-top: 60px;
+  }
   @media (max-width: 700px) {
     & .info {
       flex-direction: column;
 
       & .details {
+        max-width: 100%;
         & p {
           margin-right: 0 !important;
-          width: 100%;
           padding: 0 20px;
         }
       }
