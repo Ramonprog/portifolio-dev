@@ -28,6 +28,19 @@ export default createGlobalStyle`
     color: ${(props) => props.theme.colors.textColorPrimary};
   }
 
+  body::-webkit-scrollbar{
+    width: 5px;
+  }
+
+  body::-webkit-scrollbar-track{
+    background: #fff;
+  }
+
+  body::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+
   .btn {
     padding: 12px 30px;
     background-color: transparent;
