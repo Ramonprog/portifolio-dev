@@ -21,7 +21,7 @@ export default createGlobalStyle`
   }
 
   body{
-    min-width: 100%;
+    width: 100%;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     background-color: ${(props) => props.theme.colors.primary};
